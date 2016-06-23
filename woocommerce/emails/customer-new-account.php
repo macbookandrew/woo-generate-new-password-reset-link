@@ -28,10 +28,10 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 <?php if ( 'yes' === get_option( 'woocommerce_registration_generate_password' ) && $password_generated ) : ?>
 
-    <p><?php printf( __( "Your password has been automatically generated: <strong>%s</strong>", 'woocommerce' ), esc_html( $user_pass ) ); ?></p>
+    <p><?php printf( __( "Set up a password here: <a href='%s'>%s</a>", 'woocommerce' ), woo_new_account_password_reset_link( $user_login ) ); ?></p>
 
 <?php endif; ?>
 
-<p><?php printf( __( 'You can access your account area to view your orders and change your password here: %s.', 'woocommerce' ), wc_get_page_permalink( 'myaccount' ) ); ?></p>
+<p><?php printf( __( 'You can access your account area to view your orders here: %s.', 'woocommerce' ), wc_get_page_permalink( 'myaccount' ) ); ?></p>
 
 <?php do_action( 'woocommerce_email_footer', $email ); ?>
