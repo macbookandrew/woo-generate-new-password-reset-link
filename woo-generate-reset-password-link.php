@@ -21,7 +21,7 @@ function woo_new_account_password_reset_link( $user_login ) {
     $user_email = $user_data->user_email;
     $key = get_password_reset_key( $user_data );
 
-    echo network_site_url("wp-login.php?action=rp&key=$key&login=" . rawurlencode($user_login), 'login');
+    return network_site_url("wp-login.php?action=rp&key=$key&login=" . rawurlencode($user_login), 'login');
 }
 
 // use plugin-supplied template
