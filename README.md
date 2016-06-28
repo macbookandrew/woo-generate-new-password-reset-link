@@ -19,7 +19,7 @@ To improve security and make the experience a bit more user-friendly, this plugi
 ## Installation ##
 
 1. Install the plugin.
-1. If you&rqsuo;ve customized the customer-new-account.php template file in your theme, copy the template from this plugin over to your theme folder and make the edits necessary.
+1. If you&rsquo;ve customized the customer-new-account.php template file in your theme, copy the template from this plugin over to your theme folder and make the edits necessary.
 
 ## Screenshots ##
 
