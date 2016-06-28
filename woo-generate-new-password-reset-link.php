@@ -13,6 +13,7 @@ if (!defined('ABSPATH')) {
 }
 
 // generate password reset link
+// borrowed from WordPress core
 function woo_new_account_password_reset_link( $user_login ) {
     $user_data = get_user_by('login', $user_login);
 
