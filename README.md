@@ -3,7 +3,7 @@
 **Tags:** user account, customer account, account, password, password link, security, membership  
 **Donate link:** https://cash.me/$AndrewRMinionDesign  
 **Requires at least:** 4.0  
-**Tested up to:** 4.4.2  
+**Tested up to:** 4.5.3  
 **Stable tag:** 1.0.0  
 **License:** GPL2  
 **License URI:** https://www.gnu.org/licenses/gpl-2.0.html  
